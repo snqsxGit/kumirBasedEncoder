@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Кодировщик изображения</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Кодировщик изображения для Робота КуМир</h1>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <h2>Загрузите изображение для кодировки</h2>
+      <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*" required>
+        <button type="submit">Загрузить и закодировать</button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      &copy; 2025 Кодировщик изображения. Создатели: Платон Путин, Алексей Медведев.
+    </div>
+  </footer>
+</body>
+</html>

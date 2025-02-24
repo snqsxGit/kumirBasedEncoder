@@ -12,7 +12,7 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/yourusername/kumir-code-generator.git
+   git clone https://github.com/snqsxGit/kumirBasedEncoder.git
 2. Перейдите в директорию проекта:
    ```bash
    cd kumir-code-generator
